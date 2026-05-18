@@ -1,10 +1,10 @@
-# 👥 Employee Management System
+# Employee Management System
 
-A full-stack web application for managing employees — built with **Django Framework**, **HTML/CSS**, and **SQLite3**.
+A full-stack web application for managing employees — built with **Python using Django Framework**, **HTML/CSS**, and **SQLite3**.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -24,7 +24,7 @@ The Employee Management System is a web-based CRUD application that allows HR te
 
 ---
 
-## ✨ Features
+## Features
 
 - Add, view, edit, and delete employee records
 - Department management
@@ -35,7 +35,7 @@ The Employee Management System is a web-based CRUD application that allows HR te
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer      | Technology          |
 |------------|---------------------|
@@ -46,7 +46,7 @@ The Employee Management System is a web-based CRUD application that allows HR te
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 employee-management/
@@ -78,7 +78,7 @@ employee-management/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -129,7 +129,7 @@ employee-management/
 
 ---
 
-## 💡 Usage
+## Usage
 
 | URL                        | Description                  |
 |----------------------------|------------------------------|
@@ -142,7 +142,7 @@ employee-management/
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <img width="950" height="431" alt="image" src="https://github.com/user-attachments/assets/c79f59be-e238-4f8f-bc10-6bf36e5a66ff" />
 
@@ -163,31 +163,7 @@ employee-management/
 <img width="874" height="197" alt="image" src="https://github.com/user-attachments/assets/aaceb7bc-864c-4e05-86c3-8519a2a1514c" />
 
 
-
-
-
-
-
-```
-[ Employee List ]   [ Add Employee Form ]   [ Employee Detail ]
-```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! To get started:
-
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature/your-feature-name`
-3. Make your changes and commit: `git commit -m "Add your feature"`
-4. Push to your branch: `git push origin feature/your-feature-name`
-5. Open a Pull Request
-
----
-
-
-## 👤 Author
+## Author
 
 **Your Name**
 - GitHub: "https://github.com/urk19cs1207i"
