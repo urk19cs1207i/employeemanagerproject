@@ -1,0 +1,18 @@
+{% extends 'app1/base.html' %}
+
+{% load static %}
+
+{% block body_block %}
+
+<div class="home-container">
+    <img src="{% static 'images/homepage.jpg' %}" alt="homepage"/>
+    <div class="home-subcontainer">
+        <h1>Welcome EmployeeHub</h1>
+        <p>EmployeeHub is designed to make managing employees simple, organized, and efficient. It helps organizations store and manage employee information in one central place, reducing manual work and saving time.
+           With EmployeeHub, you can easily keep track of employee details, monitor daily activities, and ensure smooth workflow across your organization. It improves accuracy, enhances productivity, and supports better decision-making. 
+        </p>
+    </div>
+</div>
+
+
+{% endblock %} 

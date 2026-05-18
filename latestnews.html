@@ -1,0 +1,27 @@
+{% extends 'app1/base.html' %}
+
+{% block body_block %}
+
+<div class="news-container">
+    <h1 class="news-title">Latest News</h1>
+
+    <table>
+        <tr>
+            <th>Details</th>
+        </tr>
+        {% for i in d %}
+        <tr>
+            <td>{{i.details}}</td>
+            <td class="action-cell">
+                <a href="/latestnews/update/{{i.id}}" class="btn update-btn">Update</a>
+                <a href="/latestnews/delete/{{i.id}}" class="btn delete-btn">Delete</a>
+            </td>
+        </tr>
+        
+         {% endfor %}
+    </table>
+   
+    
+</div>
+
+{% endblock %}
